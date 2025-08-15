@@ -1,0 +1,42 @@
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); /* Dark blue/purple blend */
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.home p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  color: #dcdcdc;
+  margin-bottom: 25px;
+}
+
+.hire-btn {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #ff512f, #dd2476); /* Pink-Orange gradient */
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.hire-btn:hover {
+  background: linear-gradient(135deg, #dd2476, #ff512f); /* Reverse gradient */
+  transform: scale(1.05);
+}

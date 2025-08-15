@@ -1,0 +1,58 @@
+/* .about {
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  padding: 60px 20px;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #ff4b2b;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.about {
+  padding: 60px 20px;
+  background-color: transparent; /* Keep black background */
+  /* color: #e0e0e0; /* Light gray text */
+  /* text-align: center;
+} */
+
+
+.about {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* deep blue gradient */
+  color: #f1f1f1;
+  text-align: center;
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.about h2 {
+  font-size: 2rem;
+  color: #ffdd57; /* gold accent */
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: auto;
+}
